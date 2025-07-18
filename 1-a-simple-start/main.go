@@ -12,4 +12,8 @@ func main() {
 	fmt.Println("My name is", name)
 	fmt.Println("I am", age, "years old")
 	fmt.Println("I love", profession)
+	if name == "Shahathir" {
+		name = "Shah"
+	}
+	fmt.Println("You can also call me", name)
 }
